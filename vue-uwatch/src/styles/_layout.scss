@@ -1,0 +1,61 @@
+.main-container {
+  .panel {
+    border-color: #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    .panel-title {
+      padding: 0 15px;
+      color: #535351;
+      height: 70px;
+      line-height: 70px;
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+      .panel_title_select {
+        display: inline-block;
+        .el-input__inner {
+          height: 28px;
+        }
+      }
+    }
+    .panel-body {
+      padding: 15px;
+      overflow: hidden;
+      font-weight: normal;
+      .bottom-toolbar {
+        margin-top: 15px;
+        padding: 15px 0;
+      }
+    }
+  }
+}
+.login-bodya {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+
+  .loginWarpa {
+    width: 500px;
+    padding: 25px 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+
+    .login-titlea {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .login-itema {
+      .el-input__inner {
+        margin: 0 !important;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,36 @@
+body {
+	background-color: #ffffff;
+	overflow: auto;
+	/*overflow-x: hidden;*/
+	font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	/*color: #fff;*/
+	margin: 0;
+	box-sizing: border-box;
+	display: block;
+}
+
+.white-bg {
+	/*background: #0f3854;*/
+	/*background: -webkit-radial-gradient(center ellipse, #0a2e38 0%, #000000 70%);*/
+	/*background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);*/
+	/*background-size: 100%;*/
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50px;
+	background-image: url("bg.png");
+	/*background-color: #032e58  !important;*/
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	border: none !important;
+}
+.search-white-bg {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	border: none !important;
+}
